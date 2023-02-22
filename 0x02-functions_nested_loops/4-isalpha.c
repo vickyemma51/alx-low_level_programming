@@ -1,4 +1,4 @@
-nclude "holberton.h"
+#include "main.h"
 
 /**
 * _isalpha - Shows 1 if the input is a

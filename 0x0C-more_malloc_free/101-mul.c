@@ -18,13 +18,13 @@ void _is_zero(char *argv[])
 		{
 			isn1 = 0;
 			break;
-																	}
+		}
 	for (i = 0; argv[2][i]; i++)
 		if (argv[2][i] != '0')
 		{
 			isn2 = 0;
 			break;
-																	}
+		}
 	if (isn1 == 1 || isn2 == 1)
 	{
 		printf("0\n");

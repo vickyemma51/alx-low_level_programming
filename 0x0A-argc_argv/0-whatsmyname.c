@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-/*
-* main - Entry point
-*
-* Description: prints its name, followed by a new line.
+/**
+* main -  prints its name, followed by a new line.
 * @argc: number of command line arguments.
 * @argv: array that contains the program command line arguments.
 *
+* Description: prints its name, followed by a new line.
 * Return: 0 - success.
 */
 int main(int argc __attribute__((unused)), char *argv[])

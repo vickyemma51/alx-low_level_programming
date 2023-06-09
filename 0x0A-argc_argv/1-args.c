@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-/*
+/**
 * main - prints the number of arguments passed into it.
 * @argc: number of command line arguments.
 * @argv: array that contains the program command line arguments.
-* i - automatic variable
+*
 * Return: 0 - success.
 */
 
-int main(int argc, char *agrv[]__attribute__((__unused__)))
+int main(int argc, char *argv[] __attribute__((__unused__)))
 {
 	int i;
 
